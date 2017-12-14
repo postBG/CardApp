@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday!! Sang Jun" />
+        android:text="@string/happy_birthday_sang_jun" />
 
     <ImageView
         android:src="@drawable/androidparty"
@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:text="From. SeungMin" />
+        android:text="@string/from_seung_min" />
 
 </RelativeLayout>
