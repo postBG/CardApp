@@ -13,10 +13,26 @@
         android:scaleType="centerCrop"/>
 
     <TextView
+        android:id="@+id/happy_msg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/happy_birthday_sang_jun"
-        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/happy_birthday_msg"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/happy_msg"
+        android:text="@string/sang_jun"
+        android:textSize="26sp"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white" />
 
@@ -26,7 +42,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:textSize="26sp"
         android:text="@string/from_seung_min"
         android:fontFamily="sans-serif-light"
         android:textColor="@android:color/white" />
